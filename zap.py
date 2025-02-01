@@ -4,7 +4,7 @@ import flet as ft
 def main(pagina): 
 
     # Título da página e adicionar o título
-    titulo=ft.Text('É O TAL DO ZAPIZAPI')
+    titulo=ft.Text('HASHZAP')
     pagina.add(titulo) 
     pagina.update()
 
@@ -58,6 +58,6 @@ def main(pagina):
 
     # Título, campo de preencher o nome e botão entrar da popup
     nome=ft.TextField(label='Digite seu nome aqui',on_submit=entrar)
-    popup=ft.AlertDialog(title=ft.Text(f'Bem vindo ao zapizapi!'),content=nome,actions=[ft.ElevatedButton('Entrar',on_click=entrar)])
+    popup=ft.AlertDialog(title=ft.Text(f'Bem vindo(a)!'),content=nome,actions=[ft.ElevatedButton('Entrar',on_click=entrar)])
 
 ft.app(main,view=ft.WEB_BROWSER) # formato de site
